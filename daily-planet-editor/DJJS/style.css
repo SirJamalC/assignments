@@ -1,0 +1,30 @@
+.hello {
+    text-align: center;
+    color: rgb(148, 148, 235);
+   border-bottom: double yellow 30px;
+   margin-bottom: 10;
+   font-family: fantasy;
+   font-size: 35px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(148, 148, 235);
+}
+
+img {
+    height: 75%;
+    width: 75%;
+    position: absolute;
+}
+
+#square {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
