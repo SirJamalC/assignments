@@ -66,8 +66,17 @@ const peopleArray = [
   var names = [];
   var occupations = [];
 
-  for (var i = 0; i < peopleArray.length; i++){
+  /*for (var i = 0; i < peopleArray.length; i++){
     names.push(peopleArray[i].name);
     occupations.push(peopleArray[i].occupation)
+  }
+  console.log(names, occupations);*/
+  //create for loop that pushes every other name to a new array
+  for (var i = 0; i < peopleArray.length; i++){
+    if (i % 2 === 0){
+      names.push(peopleArray[i].name);
+    }else if (i % 2 === 1){
+      occupations.push(peopleArray[i].occupation);
+    }
   }
   console.log(names, occupations);
