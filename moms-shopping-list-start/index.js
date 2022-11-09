@@ -1,12 +1,12 @@
+// Created variables for form and list
 const form = document["addItem"];
 const list = document.getElementById("list")
 //console.log(addItem)
-
+// Added evenListner
 form.addEventListener("submit", (event) => {
     event.preventDefault()
     //alert("its all good")
-    // used submit eventListner to grab info
-
+// used submit eventListner to grab info
     const li = document.createElement("li");
     list.append(li);
 //created list item
@@ -19,13 +19,9 @@ form.addEventListener("submit", (event) => {
     div.prepend(button);
 //created button    
     var body = document.getElementsByTagName("body")[0];
-
     button.addEventListener("click", function() {li.remove();
-
     })
     
     form.title.value = " "
 
-
-
-})
+});
