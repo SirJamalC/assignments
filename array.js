@@ -16,5 +16,12 @@ console.log(fruit);*/
 /*let veglength = vegetables.length;
 console.log(veglength);*/
 // Add length of veg array to the end of vegtables array
-vegetables.push(4);
-console.log(vegetables);
+/*vegetables.push(4);
+console.log(vegetables);*/
+// Place both array into one and name it food 
+// Remove 2 elements from array starting @ index 4
+food = fruit.concat(vegetables);
+var foodArray = food.slice(4, 2);
+console.log(foodArray);
+
+
