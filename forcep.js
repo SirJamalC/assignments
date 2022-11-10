@@ -7,7 +7,7 @@ let alpArray = alphabet.split("");
 function forception(people, alpArray){
     let newArr = []
     for(let i = 0; i < people.length; i++){
-        newArr.push(people[i]);
+        newArr.push(people[i]+":");
         for(let j = 0; j < alpArray.length; j++){
             newArr.push(alpArray[j].toUpperCase());
         }
