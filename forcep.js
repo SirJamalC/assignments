@@ -9,7 +9,7 @@ function forception(people, alpArray){
     for(let i = 0; i < people.length; i++){
         newArr.push(people[i]);
         for(let j = 0; j < alpArray.length; j++){
-            newArr.push(alpArray[j]);
+            newArr.push(alpArray[j].toUpperCase());
         }
     }return newArr
 }
