@@ -1,11 +1,17 @@
 // Write a function that accepts 2 arrays as paramaters
 // Use a for loop within a for loop to create a new array
-function forception(people, alphabet){
-    for(var i = 0; i < people.length; i++){
-
-    }
 // created variables for array 1 and used split method to create 2nd array from alphabet string
-var people = ["Jon", "Jacob", "Jingle", "Heimer", "Schmidt"]
-var alphabet = "abcdefghijklmnopqrstuvwxyz"
-var alpArray = alphabet.split("");
-console.log(alpArray);
+let people = ["Jon", "Jacob", "Jingle", "Heimer", "Schmidt"]
+let alphabet = "abcdefghijklmnopqrstuvwxyz"
+let alpArray = alphabet.split("");
+function forception(people, alpArray){
+    let newArr = []
+    for(let i = 0; i < people.length; i++){
+        newArr.push(people[i]);
+        for(let j = 0; j < alpArray.length; j++){
+            newArr.push(alpArray[j]);
+        }
+    }return newArr
+}
+console.log(forception(people, alpArray));
+
