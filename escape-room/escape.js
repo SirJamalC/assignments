@@ -13,6 +13,7 @@ while (!youLose){
     if (answer === "a"){
         console.log("You bled to death for putting your arm in a wood chipper!1 You're DEAD!!")
     }else if (answer === "b"){
+        key = true;
         console.log("You found the key, but now you have to use it")
     }else if (answer === "c" && key === true){
         console.log("The door has been opened!! CONGRATULATIONS ON YOUR ESCAPE!!!")
