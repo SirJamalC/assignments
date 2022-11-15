@@ -7,9 +7,9 @@ let key = false;
 while (!youLose){
     let answer = readline.question(`Hello ${name}! Would you like to try to escape the room?
     If so, please choose from the options below. You must find the key and open the door. Here are your options
-    [A] Put your hand in the hole?
-    [B] Open the door?
-    [C] Look for the key?`)
+    a. Put your hand in the hole?
+    b. Open the door?
+    c. Look for the key?`)
     if (answer === "A"){
         console.log("You bled to death for putting your arm in a wood chipper!1 You're DEAD!!")
     }else if (answer === "B"){
