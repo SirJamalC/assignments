@@ -10,13 +10,13 @@ while (!youLose){
     a. Put your hand in the hole?
     b. Open the door?
     c. Look for the key?`)
-    if (answer === "A"){
+    if (answer === "a"){
         console.log("You bled to death for putting your arm in a wood chipper!1 You're DEAD!!")
-    }else if (answer === "B"){
+    }else if (answer === "b"){
         console.log("You found the key, but now you have to use it")
-    }else if (answer === "C" && key === true){
+    }else if (answer === "c" && key === true){
         console.log("The door has been opened!! CONGRATULATIONS ON YOUR ESCAPE!!!")
-    }else if (answer === "B"){
+    }else if (answer === "b"){
         console.log("The door is locked!! Do you have the key?")
     }else{
         console.log("Better Luck Next Time!!!")
