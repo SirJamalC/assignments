@@ -15,7 +15,7 @@ while (!youLose){
     }else if (answer === "b"){
         key = true;
         console.log("You found the key, but now you have to use it")
-    }else if (answer === "c" && key === true){
+    }else if (answer === "c" && key === true){// condition would need to run before continuing 
         console.log("The door has been opened!! CONGRATULATIONS ON YOUR ESCAPE!!!")
     }else if (answer === "b"){
         console.log("The door is locked!! Do you have the key?")
