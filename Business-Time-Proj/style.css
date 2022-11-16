@@ -12,3 +12,7 @@ p {
     margin-right: auto;
     height: 50%;
 }
+.sizes {
+    display: table;
+    margin: 0 auto;
+}
