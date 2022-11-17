@@ -1,9 +1,9 @@
-// Create variables for fuction
-const fistName = document.getElementById("fname");
-const lastName = document.getElementById("lname");
-const eMail = document.getElementById("email");
-// Creat eventListners 
-document.querySelector("form.my-form").addEventListener("submit", function(e){
-    e.preventDefault();
-    console.log(fistName.value)
-})
+function logSubmit(event) {
+    log.textcontent = `Information Submitted! Time Stamp: ${event.timeStamp}`;
+    event.preventDefault()
+}
+// create variables for eventListner
+const form = document.getElementById("form");
+const log = document.getElementById("log");
+// create eventListner
+form.addEventListener("submit", logSubmit);
