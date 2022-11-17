@@ -21,7 +21,11 @@ p {
     margin: 0 auto;
 }
 .form-center {
+    background-image: url(https://media0.giphy.com/media/T3rgaqd1vT6idUS12Q/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
+    min-height: 290px;
     justify-content: center;
 }
 .main-pic {
@@ -37,4 +41,7 @@ p {
 }
 #btn{
     background-color: rgb(103, 103, 142);
+}
+#gif{
+    position: relative;
 }
