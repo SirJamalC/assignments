@@ -8,4 +8,4 @@ btn.addEventListener("click", function handleClick(event){
     console.log(form.value)
     // clear input filed
     form.value = "";
-})
+});
