@@ -1,9 +1,11 @@
-function logSubmit(event) {
-    log.textcontent = `Information Submitted! Time Stamp: ${event.timeStamp}`;
+// create variable for button for eventListner
+const btn = document.getElementById("btn");
+// add eventListner to button
+btn.addEventListener("click", function handleClick(event){
     event.preventDefault()
-}
-// create variables for eventListner
-const form = document.getElementById("form");
-const log = document.getElementById("log");
-// create eventListner
-form.addEventListener("submit", logSubmit);
+    // create variable for input
+    const form = document.getElementById("form");
+    console.log(form.value)
+    // clear input filed
+    form.value = "";
+})
