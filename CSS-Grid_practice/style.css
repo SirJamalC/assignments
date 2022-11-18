@@ -1,0 +1,25 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#gird-conainer{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+header{
+    background-color: dodgerblue;
+    border: 10px solid white;
+    grid-column: 1 / 4;
+}
+
+main{
+    background-color: khaki;
+    border: 10px solid white;
+}
+
+footer{
+    background-color: black;
+    border: 10px solid white;
+}
