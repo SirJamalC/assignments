@@ -27,3 +27,4 @@ function formAlert() {
 };
 
 submit.addEventListener("click", formAlert);
+// call eventListener
